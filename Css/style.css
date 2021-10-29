@@ -38,6 +38,12 @@ a:hover {
     text-decoration: none;
     color: black;
 }
+.home-right{
+    height: 1100px;
+}
+
+
+
 
 .btn-yellow{
     border:none!important;
@@ -191,3 +197,4 @@ a:hover {
 .footer-left{;
     padding-right: 60px;
 }
+
