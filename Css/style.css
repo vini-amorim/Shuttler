@@ -23,6 +23,11 @@ h3 {
     font-weight: 800!important;
 }
 
+h5{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -58,22 +63,20 @@ a:hover {
 
 /* Seção amarelo */
 
-.img-fundo {
-    height: 900px;
+.section-yellow {
+    height: 1030px;
+    padding-top:120px;
     background:#FACC66;
     
 }
-
-.img-centro{
-    display: inline-block;
-    max-width: 100%;
-    width:900px; 
-    max-height:100%;
-    margin-top: 150px;
-    margin-left: 100px;
-    margin-right: auto;
-    border-radius: 20px;;
+.unlock{
+    display: block;
+    width: ;
+    height: ;
+    margin: 0 auto;
+    border-radius: 20px;
 }
+
 
 .content-traco-rosa{
     position: relative;
@@ -131,9 +134,7 @@ a:hover {
     
 } */
 
-.shuttle-gives{
-    padding-top:40px;
-}
+
 
 .section-storage{
     padding-top:80px;
@@ -142,6 +143,14 @@ a:hover {
 .content-traco-azul{
     position: relative;
 	left:45px;}
+    .unlock{
+        display: block;
+        max-width: 100%;
+    }
+    .unlock{
+        display: block;
+        max-width: 100%;
+    }
       
 .content-traco-azul::before {
     content: "";
@@ -154,6 +163,10 @@ a:hover {
 .content-traco-azul-2{
     position: relative;
 	left:45px;
+    .unlock{
+        display: block;
+        max-width: 100%;
+    }
     padding-top:30px;
 }
       
@@ -172,11 +185,43 @@ a:hover {
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    .unlock{
+        display: block;
+        max-width: 100%;
+    }
+    .unlock{
+        display: block;
+        max-width: 100%;
+    }
 }
 .future-proof{
     padding-top: 180px;
     padding-left: 50px;
     padding-right: 50px;
+    .unlock{
+        display: block;
+        max-width: 100%;
+    }
+    .unlock{
+        display: block;
+        max-width: 100%;
+    }
+}
+.unlock{
+    display: block;
+    max-width: 100%;
+}
+.unlock{
+    display: block;
+    max-width: 100%;
+}
+.unlock{
+    display: block;
+    max-width: 100%;
+}
+.unlock{
+    display: block;
+    max-width: 100%;
 }
 
 .section-blue{ 
@@ -198,4 +243,12 @@ a:hover {
 .footer-left{
     padding-right: 60px;
 }
+
+.section-improvent {
+    height: 1000px;
+}
+.shuttle-drive{
+    padding-top:200px;
+}
+
 
