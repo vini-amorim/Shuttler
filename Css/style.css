@@ -87,7 +87,7 @@ a:hover {
 	left: -45px;
 	background: #FAC7D0;
 	position: absolute;
-	bottom:2px
+	bottom:2px;
     padding-bottom: 40px;
 
 }
@@ -105,9 +105,9 @@ a:hover {
 	bottom:2px
 }
 
-.content-right{
+/* .content-right{
     
-}
+} */
 
 .shuttle-drive{
     padding-top: 150px!important;
@@ -126,9 +126,10 @@ a:hover {
     max-height:100%;
     border-radius: 20px;;
 }
+/*
 .imagem-fundo{
     
-}
+} */
 
 .shuttle-gives{
     padding-top:40px;
@@ -162,7 +163,7 @@ a:hover {
 	left: -45px;
 	background: #B8EDFF;
 	position: absolute;
-	bottom:2px
+	bottom:2px;
     padding-top:30px;
 
 }
@@ -194,7 +195,7 @@ a:hover {
     border-radius: 20px;;
 }
 
-.footer-left{;
+.footer-left{
     padding-right: 60px;
 }
 
