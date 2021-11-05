@@ -1,4 +1,8 @@
 
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 h1,h2, h4, h5, h6, p, footer, blockquote, span {
     font-family: 'Noe Display';
@@ -143,16 +147,10 @@ a:hover {
 }
 .content-traco-azul{
     position: relative;
-	left:45px;}
-    .unlock{
-        display: block;
-        max-width: 100%;
-    }
-    .unlock{
-        display: block;
-        max-width: 100%;
-    }
-      
+	left:45px;
+
+}
+
 .content-traco-azul::before {
     content: "";
 	height: 120px; width: 5px;
@@ -164,10 +162,7 @@ a:hover {
 .content-traco-azul-2{
     position: relative;
 	left:45px;
-    .unlock{
-        display: block;
-        max-width: 100%;
-    }
+    
     padding-top:30px;
 }
       
@@ -186,32 +181,17 @@ a:hover {
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    .unlock{
-        display: block;
-        max-width: 100%;
-    }
-    .unlock{
-        display: block;
-        max-width: 100%;
-    }
 }
+    .unlock{
+        display: block;
+        max-width: 100%;
+    }
+ 
+
 .future-proof{
     padding-top: 180px;
     padding-left: 50px;
     padding-right: 50px;
-    .unlock{
-        display: block;
-        max-width: 100%;
-    }
-    .unlock{
-        display: block;
-        max-width: 100%;
-    }
-}
-
-.unlock{
-    display: block;
-    max-width: 100%;
 }
 
 .section-blue{ 
@@ -220,6 +200,107 @@ a:hover {
     background:#B8EDFF !important;
 }
 
+.imagem-fundo{
+    display: block;
+    margin: 0, auto;
+    border-radius: 20px;
+}
+
+}
+
+.box-imagem-frente{
+    display: none;
+    position: absolute;
+    right: 170px;
+    top: -100px;
+}
+
+.imagem-frente{
+    display: none;
+}
+
+.section-improvent {
+    height: 1000px;
+}
+.shuttle-drive{
+    padding-top:200px;
+}
+
+.img-blue{
+    max-width: 100%;
+}
+
+
+/* Desktop */
+
+@media (min-width: 768px) { 
+
+    h1,h2, h4, h5, h6, p, footer, blockquote, span {
+        font-family: 'Noe Display';
+        font-style: normal;
+    }
+    
+    
+    h1{
+        font-size: 77px!important;
+        line-height: 82px!important;
+        font-weight: 700px!important;
+    }
+    
+    h2{
+        font-size: 28px!important;
+        line-height: 39px!important;
+        font-weight: 400px!important;
+    }
+    
+    h3 {
+        font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px!important;
+        line-height: 34px!important;
+        font-weight: 200!important;
+    }
+    
+    h5{
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    
+    p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px!important;
+        line-height: 25px;
+        font-weight: 300;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+.section-first {
+    height: 700px;
+}
+.section-secondary{
+    height: 900px;
+    padding-top:200px;
+    
+}
+.container_afordable{
+    height: 900px;
+    padding-top:200px;
+}
+.form-md {
+    width:290px
+}
+.imagem-frente{
+    display: block;
+}
 .box-imagem-fundo{
     position: relative;
     border-radius: 20px;
@@ -230,13 +311,4 @@ a:hover {
     right: 170px;
     top: -100px;
 }
-.section-improvent {
-    height: 1000px;
-}
-.shuttle-drive{
-    padding-top:200px;
-}
-
-.img-blue{
-    max-width: 100%;
 }
